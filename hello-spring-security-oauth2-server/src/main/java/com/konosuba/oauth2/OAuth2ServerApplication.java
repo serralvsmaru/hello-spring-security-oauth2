@@ -9,7 +9,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * Description:
  * </p>
  *
- * @author Lusifer
+ * @author konosuba
  * @version v1.0.0
  * @date 2020.8.29
  * @see com.konosuba.oauth2
