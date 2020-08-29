@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: oauth2-server-xtl
+
+
+server:
+  port: 8081
