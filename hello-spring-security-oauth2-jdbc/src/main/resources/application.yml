@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: oath2-jdbc-server-xtl
+  profiles:
+    active: dev, hikaricp
+
+
+server:
+  port: 8082
