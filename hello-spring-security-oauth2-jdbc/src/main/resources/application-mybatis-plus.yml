@@ -1,0 +1,13 @@
+mybatis-plus:
+  type-aliases-package: com.konosuba.oauth2.domain.entity
+  mapper-locations: classpath:/mapper/**/*.xml
+  global-config:
+    db-config:
+      # 主键类型
+      id-type: auto
+      #驼峰下划线转换
+      table-underline: true
+      logic-not-delete-value: 1
+      logic-delete-value: 0
+  configuration:
+    log-impl: org.apache.ibatis.logging.slf4j.Slf4jImpl

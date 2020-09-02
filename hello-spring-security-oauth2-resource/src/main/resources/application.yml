@@ -1,0 +1,11 @@
+spring:
+  profiles:
+    active: dev, hikaricp, mybatis-plus, log, security
+  application:
+    name: oauth2-resource-xtl
+    
+server:
+  port: 8085
+  servlet:
+    context-path: /contents
+

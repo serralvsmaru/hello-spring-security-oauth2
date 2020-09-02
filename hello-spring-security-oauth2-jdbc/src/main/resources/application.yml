@@ -2,7 +2,7 @@ spring:
   application:
     name: oath2-jdbc-server-xtl
   profiles:
-    active: dev, hikaricp
+    active: dev, hikaricp, mybatis-plus
 
 
 server:

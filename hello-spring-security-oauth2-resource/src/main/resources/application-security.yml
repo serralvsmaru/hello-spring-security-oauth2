@@ -1,0 +1,10 @@
+security:
+  oauth2:
+    client:
+      client-id: client
+      client-secret: secret
+      # 端口号要灵活修改为hello-spring-security-oauth2-jdbc中的端口号
+      access-token-uri: http://localhost:8082/oauth/token
+      user-authorization-uri: http://localhost:8082/oauth/authorize
+    resource:
+      token-info-uri: http://localhost:8082/oauth/check_token
